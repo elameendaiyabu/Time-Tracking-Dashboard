@@ -17,8 +17,8 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [GitHub URL]()
-- Live Site URL: [Netlify Site]()
+- Solution URL: [GitHub URL](https://github.com/elameendaiyabu/Time-Tracking-Dashboard.git)
+- Live Site URL: [Netlify Site](https://time-tracking-dashboard24.netlify.app/)
 
 <!-- ### Screenshot
 
