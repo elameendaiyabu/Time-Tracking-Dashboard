@@ -24,7 +24,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 <!-- ![Screenshot of Finished Product](./images/result-summary-screenshot.png) -->
 
-![screenshot](./images/finished%20screenshot.png) -->
+![screenshot](./images/finished%20screenshot.png)
 
 ## My process
 
