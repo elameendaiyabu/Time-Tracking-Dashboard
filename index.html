@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <title>Time Tracking Dashboard</title>
+  </head>
+  <body>
+    <div id="content">
+      <!--first card-->
+      <div id="navbar">
+        <div id="profile">
+          <div id="profile-img">
+            <img
+              src="./images/image-jeremy.png"
+              alt=""
+              width="60px"
+              height="60px"
+            />
+          </div>
+          <div id="detail">
+            <p>Report for</p>
+            <p id="name">Jeremy Robson</p>
+          </div>
+        </div>
+        <div id="period">
+          <p><button id="daily">Daily</button></p>
+          <p><button id="weekly">Weekly</button></p>
+          <p><button id="monthly">Monthly</button></p>
+        </div>
+      </div>
+
+      <!--second card-->
+      <div class="cards work">
+        <div id="image"></div>
+        <div class="upper-layer">
+          <div class="layer-header">
+            <p>Work</p>
+            <p><span class="dot">...</span></p>
+          </div>
+          <div id="time">
+            <p class="hours" id="work-hour">32hrs</p>
+            <p class="time-spent" class="total"><span id="period1">Last Week</span> - <span id="previous-work">36hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!--third card-->
+      <div class="cards play">
+        <div class="upper-layer">
+          <div class="layer-header">
+            <p>Play</p>
+            <p><span class="dot">...</span></p>
+          </div>
+          <div id="time">
+            <p class="hours" id="play-hour">10hrs</p>
+            <p class="time-spent" class="total"><span id="period2">Last Week</span> - <span id="previous-play">8hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!--fourth card-->
+      <div class="cards study">
+        <div class="upper-layer">
+          <div class="layer-header">
+            <p>Study</p>
+            <p><span class="dot">...</p></span>
+          </div>
+          <div id="time">
+            <p class="hours" id="study-hour">4hrs</p>
+            <p class="time-spent" class="total"><span id="period3">Last Week</span> - <span id="previous-study">7hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!--fifth card-->
+      <div class="cards exercise">
+        <div class="upper-layer">
+          <div class="layer-header">
+            <p>Exercise</p>
+            <p><span class="dot">...</span></p>
+          </div>
+          <div id="time">
+            <p class="hours" id="exercise-hour">4hrs</p>
+            <p class="time-spent" class="total"><span id="period4">Last Week</span> - <span id="previous-exercise">5hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!--sixth card-->
+      <div class="cards social">
+        <div class="upper-layer">
+          <div class="layer-header">
+            <p>Social</p>
+            <p><span class="dot">...</span></p>
+          </div>
+          <div id="time">
+            <p class="hours" id="social-hour">5hrs</p>
+            <p class="time-spent" class="total"><span id="period5">Last Week</span> - <span id="previous-social">5hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!--seventh card-->
+      <div class="cards self-care">
+        <div class="upper-layer">
+          <div class="layer-header">
+            <p>Self-care</p>
+            <p><span class="dot">...</span></p>
+          </div>
+          <div id="time">
+            <p class="hours" id="self-care-hour">2hrs</p>
+            <p class="time-spent" class="total"><span id="period6">Last Week</span> - <span id="previous-self-care">2hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!---->
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
